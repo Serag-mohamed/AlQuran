@@ -26,7 +26,7 @@ export default function Quran() {
   return (
     <div className='container mx-auto px-6 py-10'>
       <h2 className=' text-4xl text-center font-semibold text-green-800 mb-10 border-b-2 border-gray-300 pb-14'>
-     أَفَلَا يَتَدَبَّرُونَ الْقُرْآنَ أَمْ عَلَىٰ قُلُوبٍ أَقْفَالُهَا
+     <span className='text-lg'>صدق الله العظيم</span>أَفَلَا يَتَدَبَّرُونَ الْقُرْآنَ أَمْ عَلَىٰ قُلُوبٍ أَقْفَالُهَا
       </h2>
 
       {loading ? (
