@@ -178,7 +178,7 @@ export default function SurahPage() {
             }}
             className='cursor-pointer mb-6 px-4 py-2 bg-green-200 text-green-800 rounded-lg hover:bg-green-300 transition flex justify-center items-center'
           >
-            <span className=''>→</span> السورة السابقة
+            <span className=''>→</span><span> السورة السابقة</span>
           </button>
           <button
             onClick={() => {
