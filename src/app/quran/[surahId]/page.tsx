@@ -99,7 +99,7 @@ export default function SurahPage() {
         </h1>
 
         {surahName !== 'سُورَةُ التَّوۡبَةِ' && (
-          <span className='block text-4xl font-bold text-green-700 mb-4 text-center'>
+          <span className='block text-[33px] font-bold text-green-700 mb-4 text-center'>
             بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ{' '}
             {surahName === 'سُورَةُ ٱلْفَاتِحَةِ' && (
               <span className={ayahNumberStyle}> 1</span>
