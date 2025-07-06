@@ -176,18 +176,18 @@ export default function SurahPage() {
                 router.replace(`/quran/114`);
               else router.replace(`/quran/${Number(surahId) - 1}`);
             }}
-            className='cursor-pointer mb-6 px-4 py-2 bg-green-200 text-green-800 rounded-lg hover:bg-green-300 transition flex justify-center items-center'
+            className='cursor-pointer mb-6 px-4 py-2 bg-green-200 text-green-800 rounded-lg hover:bg-green-300 transition'
           >
-            <span className=''>→</span><span> السورة السابقة</span>
+            السورة السابقة
           </button>
           <button
             onClick={() => {
               if (surahName === 'سُورَةُ النَّاسِ') router.replace(`/quran/1`);
               else router.replace(`/quran/${Number(surahId) + 1}`);
             }}
-            className='cursor-pointer mb-6 px-4 py-2 bg-green-200 text-green-800 rounded-lg hover:bg-green-300 transition flex justify-center items-center'
+            className='cursor-pointer mb-6 px-4 py-2 bg-green-200 text-green-800 rounded-lg hover:bg-green-300 transition'
           >
-            <span>السورة التالية </span><span className=''> ←</span>
+            السورة التالية
           </button>
         </div>
       </div>
